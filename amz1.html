@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="./css/amz.css">
+</head>
+<body>
+
+  <header>
+    <div class="amg">
+        <img src="arrow.png" alt="">  
+     
+    </div>
+    <div class="search-bar">
+      
+      <input type="text" placeholder="Search Amazon">
+      <button>🔍</button>
+    </div>
+    <div class="nav-links">
+        
+       <a href="#">Hello, Sign in 👨‍💼</a> 
+        <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fyour-orders%2Forders%3Fref_%3Dnav_orders_first&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_retail_yourorders_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Returns</a> 
+         <a href="#" id="cart-button">Cart🛒</a> 
+      
+    </div>
+  </header>
+
+  <nav class="categories">
+    <a href="#" class="one">≡ALL</a>
+    <a href="https://www.amazon.in/deals?ref_=nav_cs_gb" class="one">Today's Deals</a>
+    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help" class="one">Customer Service</a>
+   
+    <a href="https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3" class="one">Sell</a>
+    <a href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles" class="one">Mobiles</a>
+    <a href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics" class="one">Electronics</a>
+    <a href="https://www.amazon.in/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home" class="one">Home & Kitchen</a>
+    <a href="https://www.amazon.in/gp/browse.html?node=6648217031&ref_=nav_cs_fashion" class="one">Fashion</a>
+    <a href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers" class="one">Best Seller</a>
+    <a href="https://www.amazon.in/amazonpay/home?ref_=nav_cs_apay" class="one">Amazon Pay</a>
+    <a href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav" class="one">MX Player</a>
+  </nav>
+
+  <section class="product-grid">
+    <div class="product-card" id="AA">
+      <img src="w1.jpg" alt="Product 1">
+      <h2>Watch</h2>
+      <p>$1500.00</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card" id="aa">
+      <img src="w2.jpg" alt="Product 2">
+      <h2>Mobile Phone</h2>
+      <p>$20000.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card" id="bb">
+      <img src="w3.jpg" alt="Product 3">
+      <h2>Head Phones</h2>
+      <p>$999.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card" id="cc">
+        <img src="w4.jpg" alt="Product 4">
+        <h2>Handbag</h2>
+        <p>$3945.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" id="dd">
+        <img src="w5.jpg" alt="Product 5">
+        <h2>Water Bottles</h2>
+        <p>$300.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card" id="dd">
+        <img src="w6.jpg" alt="Product 5">
+        <h2>Note Books</h2>
+        <p>$300.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card" id="dd">
+        <img src="w6.png" alt="Product 5">
+        <h2>Violin</h2>
+        <p>$20000.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card" id="dd">
+        <img src="w9.jpg" alt="Product 5">
+        <h2>Camera</h2>
+        <p>$20000.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+  </section>
+  
+  
+
+  <section id="cart-section" style="display: none;">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+  </section>
+
+  <section class="user-form">
+    <div id="details">
+    <h2>Fill Your Details</h2>
+    <form id="user-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br><br>
+      <label for="mobile">Mobile Number:</label>
+      <input type="text" id="mobile" required><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  </section>
+
+  <div class="tk">@amazon.com</div>
+
+  <script src="amz1.js"></script>
+
+
+
+
+ 
+
+</body>
+</html>

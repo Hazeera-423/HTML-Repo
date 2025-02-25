@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog Post</title>
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Post Your Blog</h1>
+       
+            <form action="#">
+            <div class="blog">
+                <label for="title">Blog Title:</label>
+                <input type="text" id="title" name="title" placeholder="Enter the blog title" required>
+            </div>
+
+            <div class="blog">
+                <label for="image">Blog Image:</label>
+                <input type="file" id="image" name="image" accept="image/*" required>
+            </div>
+
+            <div class="blog">
+                <label for="content">Blog Content:</label>
+                <textarea  placeholder="Write your blog here..." required></textarea>
+            </div>
+
+            <button type="submit">Post Blog</button>
+        </form>
+    </div>
+</body>
+</html>
